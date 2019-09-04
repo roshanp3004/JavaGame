@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -6,21 +5,22 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                    sh 'echo "hello"'
-                }
+               sh 'echo "Compile"'
             }
+        }
 
         stage ('Testing Stage') {
 
             steps {
-            sh 'echo "Testing"'
+               sh 'echo "Testing"'
             }
         }
 
 
         stage ('Deployment Stage') {
             steps {
-              sh 'echo "Testing"'
+              sh 'echo "Deployment"'
+            }
         }
     }
 }
