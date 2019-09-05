@@ -7,6 +7,7 @@ pipeline {
                sh 'echo "Compile"'
                sh 'javac src/Main.java'
                sh 'pwd'
+               sh 'ls'
             }
         }
 
@@ -15,6 +16,7 @@ pipeline {
             steps {
                sh 'echo "Testing"'
                sh 'cd src'
+               sh 'ls'
                sh 'java Main'
             }
         }
