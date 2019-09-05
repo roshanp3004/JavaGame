@@ -6,6 +6,7 @@ pipeline {
             steps {
                sh 'git checkout master'
                sh 'echo "Compile"'
+               sh 'echo $NODE_NAME '
                sh 'javac src/Main.java'
                sh 'git commit -am "Updated version number"'
                sh 'git push origin master'
