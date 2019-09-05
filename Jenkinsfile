@@ -10,6 +10,7 @@ pipeline {
                sh 'pwd'
                sh 'ls'
                sh 'git commit -am "Updated version number"'
+               sh 'git push origin master'
             }
         }
 
