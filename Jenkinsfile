@@ -8,8 +8,9 @@ pipeline {
                sh 'echo "Compile"'
                sh 'echo $NODE_NAME '
                sh 'javac src/Main.java'
-               sh 'git commit -am "Updated version number"'
-               sh 'git push origin master'
+               // TODO: Add statements to commit to github repository
+               //sh 'git commit -am "Updated version number"'
+               //sh 'git push origin master'
             }
         }
 
