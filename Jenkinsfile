@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
             steps {
                sh 'echo "Compile"'
-               sh 'java -version'
+               sh 'javac /src/Main.java'
                sh 'pwd'
             }
         }
@@ -14,6 +14,7 @@ pipeline {
 
             steps {
                sh 'echo "Testing"'
+               sh 'java /src/Main'
             }
         }
 
