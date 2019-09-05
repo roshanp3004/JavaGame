@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage ('Compile Stage') {
             steps {
-               git checkout master
+               sh 'git checkout master'
                sh 'echo "Compile"'
                sh 'javac src/Main.java'
                sh 'pwd'
                sh 'ls'
-               git commit -am "Updated version number"
+               sh 'git commit -am "Updated version number"'
             }
         }
 
