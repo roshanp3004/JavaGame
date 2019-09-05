@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
             steps {
                sh 'echo "Compile"'
-               sh 'javac /src/Main.java'
+               sh 'javac src/Main.java'
                sh 'pwd'
             }
         }
