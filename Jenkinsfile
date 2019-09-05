@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                sh 'echo "Testing"'
-               sh 'cd src'
+               cd src
                sh 'ls'
                sh 'pwd'
                sh 'java Main'
