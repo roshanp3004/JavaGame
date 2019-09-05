@@ -3,9 +3,6 @@ pipeline {
 
     stages {
         stage ('Compile Stage') {
-            tools {
-               jdk "Oracle JDK 8"
-            }
             steps {
                sh 'echo "Compile"'
                sh 'java -version'
