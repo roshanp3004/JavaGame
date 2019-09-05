@@ -17,6 +17,7 @@ pipeline {
                sh 'echo "Testing"'
                sh 'cd src'
                sh 'ls'
+               sh 'pwd'
                sh 'java Main'
             }
         }
