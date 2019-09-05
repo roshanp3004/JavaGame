@@ -14,7 +14,7 @@ pipeline {
 
             steps {
                sh 'echo "Testing"'
-               sh 'java /src/Main'
+               sh 'java src/Main'
             }
         }
 
