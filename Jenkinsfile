@@ -1,17 +1,5 @@
 def project = 'try_jenkins_scripts'
-def branchType
-def baseVersion
-def pullRequest
-def isMainline = false
-def branch = ('/master')
-def versions = [project] //if multiples, need to track as a list, can track latest
-def label = "${project}-${branch.replace(/_/,'-').toLowerCase()}-123"
-//def pullSecrets = ['reg.vibrenthealth.com', 'dockergroup.vibrenthealth.com']
-def dev_branch = "develop"
-def version = "$branch-123"
-
-
- node(label) {
+node(label) {
 ciPipeline(
             checkout: {
                 stage('Checkout'){
