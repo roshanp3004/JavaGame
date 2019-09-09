@@ -1,5 +1,6 @@
 def project = 'try_jenkins_scripts'
-node(label) {
+
+node() {
 ciPipeline(
             checkout: {
                 stage('Checkout'){
