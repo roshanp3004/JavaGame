@@ -28,6 +28,7 @@
 		    steps {
 		      sh 'echo "Deployment"'
 		      // TO DO : Add deployment steps
+		      // Cleanup
 		    }
 		}
 	    }
