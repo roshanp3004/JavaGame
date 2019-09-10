@@ -9,8 +9,8 @@
 		       sh 'echo $NODE_NAME '
 		       sh 'javac src/Main.java'
 		       // TODO: Add statements to commit to github repository
-		       //sh 'git commit -am "Updated version number"'
-		       //sh 'git push origin master'
+		       // sh 'git commit -am "Updated version number"'
+		       // sh 'git push origin master'
 		    }
 		}
 
