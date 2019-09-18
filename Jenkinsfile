@@ -18,7 +18,7 @@
 
 		    steps {
 		       sh 'echo "Testing"'
-		       //Add Testing statements to test
+		       // Add Testing statements to test
 		       cd src
 		       sh 'java Main'
 		    }
