@@ -1,6 +1,5 @@
 	pipeline {
 	    agent any
-
 	    stages {
 		stage ('Compile Stage') {
 		    steps {
@@ -11,6 +10,7 @@
 		       // TODO: Add statements to commit to github repository
 		       // sh 'git commit -am "Updated version number"'
 		       // sh 'git push origin master'
+		       // Add statements to push build to some repo
 		    }
 		}
 
