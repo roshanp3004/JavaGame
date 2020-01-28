@@ -1,3 +1,4 @@
+#Simple Main Method
 public class Main {
     public String play(int number) {
 
