@@ -6,7 +6,7 @@ public class Main {
         if (number % 3 == 0) return "Fizz";
         if (number % 5 == 0) return "Buzz";
 
-
+        
         return String.valueOf(number);
     }
 
@@ -15,5 +15,6 @@ public class Main {
         Main obj= new Main();
         System.out.println(obj.play(5));
         System.out.println("FINISH")
+        System.out.println("DONE")
     }
 }
