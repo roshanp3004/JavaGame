@@ -16,5 +16,6 @@ public class Main {
         System.out.println(obj.play(5));
         System.out.println("FINISH")
         System.out.println("DONE")
+        System.out.println("END")
     }
 }
