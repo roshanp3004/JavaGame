@@ -14,5 +14,6 @@ public class Main {
     {
         Main obj= new Main();
         System.out.println(obj.play(5));
+        System.out.println("FINISH")
     }
 }
